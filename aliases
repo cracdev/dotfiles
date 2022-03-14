@@ -90,6 +90,7 @@ alias undopush="git push -f origin HEAD^:master"
 
 # git root
 alias gr='[ ! -z `git rev-parse --show-cdup` ] && cd `git rev-parse --show-cdup || pwd`'
+alias ltag='git tag --sort=committerdate | tail -1'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
@@ -97,7 +98,7 @@ alias localip="ipconfig getifaddr en1"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 
 # Enhanced WHOIS lookups
-alias whois="whois -h whois-servers.net"
+alias whois="whois"
 
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache"
@@ -167,7 +168,6 @@ alias dok="docker"
 alias dk="docker-compose"
 alias dkbd="docker-compose build"
 alias dkup="docker-compose up"
-
 alias chrome="/Applications/Google\\ \\Chrome.app/Contents/MacOS/Google\\ \\Chrome"
 alias canary="/Applications/Google\\ Chrome\\ Canary.app/Contents/MacOS/Google\\ Chrome\\ Canary"
 
@@ -176,27 +176,30 @@ alias ccn="open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Ch
 alias showAppAny="sudo spctl --master-disable"
 alias hideAppAny="sudo spctl --master-enable"
 
-
 #Lando
 #alias lnd="lando start"
 alias lnds="lando stop"
 alias lnd="lando poweroff; lando start"
-
 #npm basic
 alias nst="npm start"
 alias yst="yarn start"
 alias sdt="yarn start:test"
 alias yri="yarn install"
-
+#aws
+alias awsgci="aws sts get-caller-identity"
 #kubernetes
 alias k="kubectl"
+
 alias kgp="kubectl get pods"
+
+alias kg="kubectl get"
 
 alias kct="kubectl config get-contexts"
 alias kcc="kubectl config current-context"
 alias kuc="kubectl config use-context"
 
 alias ks="kubectl describe"
+
 alias ksp="kubectl describe pods"
 alias ksn="kubectl describe nodes"
 
@@ -204,7 +207,11 @@ alias kd="kubectl delete"
 alias kdp="kubectl delete pod"
 alias kds="kubectl delete service"
 
+#AWS Utils
 alias gawsc="gimme-aws-creds"
+alias gci="aws sts get-caller-identity"
+
+alias qdaws="export AWS_PROFILE=quad-d1"
 
 #Other
 alias ssha="ssh-add -K ~/.ssh/silverback"
@@ -215,3 +222,6 @@ alias iod='xcrun instruments -s devices'
 
 
 alias ktb='sudo pkill TouchBarServer'
+
+alias vlprod='vercel --prod'
+alias vl='vercel'

@@ -26,7 +26,8 @@ brew install highlight
 brew install z
 brew install markdown
 brew install diff-so-fancy
-
+# kubernetes tools
+brew install minikube
 #brew tap heroku/brew && brew install heroku
 
 # node

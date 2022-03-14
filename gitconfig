@@ -69,7 +69,7 @@
   ui = true
 
 [core]
-    excludesfile = ~/.gitignore
+	excludesfile = /Users/crac/.gitignore_global
     attributesfile = ~/.gitattributes
     pager = diff-so-fancy | less --tabs=4 -RFX
 
@@ -103,7 +103,13 @@
 [merge]
     log = true
 [user]
-	name = cracdev
-	email = andres.ca@gmail.com
+	name = crac
+	email = cracdev@gmail.com
 [mergetool]
 	keepBackup = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

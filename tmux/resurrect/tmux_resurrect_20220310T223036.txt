@@ -1,0 +1,127 @@
+pane	DG	1	:GCS	0	:-	1	:/Users/crac	0	bash	:
+pane	DG	1	:GCS	0	:-	2	:/Users/crac	0	bash	:
+pane	DG	1	:GCS	0	:-	3	:/Users/crac	1	bash	:
+pane	DG	1	:GCS	0	:-	4	:/Users/crac/dotfiles	0	Vim	:/usr/local/Cellar/macvim/8.2-172/MacVim.app/Contents/MacOS/Vim aliases
+pane	DG	2	:S&D	1	:*	1	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	0	bash	:
+pane	DG	2	:S&D	1	:*	2	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	1	bash	:
+pane	DG	2	:S&D	1	:*	3	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v1	0	bash	:
+pane	DG	2	:S&D	1	:*	4	:/Users/crac/projects/DG/search_discovery/contenthub/react-chartjs-2	0	bash	:
+pane	DG	2	:S&D	1	:*	5	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v1	0	bash	:
+pane	DG	3	:hacking	0	:	1	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	0	bash	:
+pane	DG	3	:hacking	0	:	2	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	1	bash	:
+pane	DG	3	:hacking	0	:	3	:/Users/crac/projects/DG/search_discovery/_public/marketo	0	bash	:
+pane	DG	4	:shell	0	:	1	:/Users/crac	1	bash	:
+pane	DG	4	:shell	0	:	2	:/Users/crac	0	bash	:
+pane	DG	4	:shell	0	:	3	:/Users/crac/dotfiles	0	Vim	:/usr/local/Cellar/macvim/8.2-172/MacVim.app/Contents/MacOS/Vim aliases
+pane	DG	5	:services	0	:	1	:/Users/crac	0	bash	:
+pane	DG	5	:services	0	:	2	:/Users/crac	0	bash	:
+pane	DG	5	:services	0	:	3	:/Users/crac/dotfiles	1	bash	:
+pane	DG	5	:services	0	:	4	:/Users/crac/dotfiles	0	bash	:
+pane	KL	1	:Dev	1	:*	1	:/Users/crac/Development/clients/palermovirtual/components	1	bash	:
+pane	KL	1	:Dev	1	:*	2	:/Users/crac	0	bash	:
+pane	KL	1	:Dev	1	:*	3	:/Users/crac	0	bash	:
+pane	KL	2	:Lab	0	:-	1	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	0	bash	:
+pane	KL	2	:Lab	0	:-	2	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	1	bash	:
+pane	KL	2	:Lab	0	:-	3	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	0	bash	:
+pane	KL	3	:hacking	0	:	1	:/Users/crac	0	bash	:
+pane	KL	3	:hacking	0	:	2	:/Users/crac	1	bash	:
+pane	KL	3	:hacking	0	:	3	:/Users/crac	0	bash	:
+pane	KL	4	:shell	0	:	1	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	0	bash	:
+pane	KL	4	:shell	0	:	2	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	1	bash	:
+pane	QD	1	:dev	1	:*	1	:/Users/crac	0	bash	:
+pane	QD	1	:dev	1	:*	2	:/Users/crac	1	bash	:
+pane	QD	1	:dev	1	:*	3	:/Users/crac/dotfiles	0	Vim	:/usr/local/Cellar/macvim/8.2-172/MacVim.app/Contents/MacOS/Vim aliases
+pane	QD	1	:dev	1	:*	4	:/Users/crac	0	bash	:
+pane	QD	1	:dev	1	:*	5	:/Users/crac	0	bash	:
+pane	QD	1	:dev	1	:*	6	:/Users/crac	0	bash	:
+pane	QD	1	:dev	1	:*	7	:/Users/crac/.aws	0	bash	:
+pane	QD	2	:lab	0	:-	1	:/Users/crac	1	bash	:
+pane	QD	2	:lab	0	:-	2	:/Users/crac	0	bash	:
+pane	QD	2	:lab	0	:-	3	:/Users/crac	0	bash	:
+pane	QD	2	:lab	0	:-	4	:/Users/crac	0	bash	:
+pane	QD	2	:lab	0	:-	5	:/Users/crac	0	bash	:
+pane	QD	3	:projects	0	:	1	:/Users/crac	0	bash	:
+pane	QD	3	:projects	0	:	2	:/Users/crac	0	bash	:
+pane	QD	3	:projects	0	:	3	:/Users/crac	0	bash	:
+pane	QD	3	:projects	0	:	4	:/Users/crac	1	bash	:
+pane	QD	3	:projects	0	:	5	:/Users/crac/dotfiles	0	Vim	:/usr/local/Cellar/macvim/8.2-172/MacVim.app/Contents/MacOS/Vim aliases
+pane	QD	4	:hacking	0	:	1	:/Users/crac/dotfiles	1	bash	:
+pane	QD	4	:hacking	0	:	2	:/Users/crac/.aws	0	bash	:
+pane	QD	4	:hacking	0	:	3	:/Users/crac/dotfiles	0	Vim	:/usr/local/Cellar/macvim/8.2-172/MacVim.app/Contents/MacOS/Vim aliases
+pane	QD	4	:hacking	0	:	4	:/Users/crac	0	bash	:
+pane	QD	4	:hacking	0	:	5	:/Users/crac	0	bash	:
+pane	QD	4	:hacking	0	:	6	:/Users/crac	0	bash	:
+pane	coderpad	1	:dev	0	:-	1	:/Users/crac/Development/BD/CoderPad/coderpad.io	1	bash	:
+pane	coderpad	2	:lab	1	:*	1	:/Users/crac/Development/BD/CoderPad/coderpad.io	0	bash	:
+pane	coderpad	2	:lab	1	:*	2	:/Users/crac/Development/BD/CoderPad/coderpad.io	1	bash	:
+pane	coderpad	2	:lab	1	:*	3	:/Users/crac/Development/lab/editor.js	0	bash	:
+pane	coderpad	3	:projects	0	:	1	:/Users/crac/Development/BD/test	1	bash	:
+pane	crac	1	:dev	1	:*	1	:/Users/crac/Development/clients/palermovirtual	0	bash	:
+pane	crac	1	:dev	1	:*	2	:/Users/crac/Development/clients/palermov	0	bash	:
+pane	crac	1	:dev	1	:*	3	:/Users/crac/Development/clients/palermovirtual	1	bash	:
+pane	crac	2	:lab	0	:	1	:/Users/crac/Development/lab/secretsanta	1	bash	:
+pane	crac	2	:lab	0	:	2	:/Users/crac/Development/clients/palermov	0	bash	:
+pane	crac	2	:lab	0	:	3	:/Users/crac	0	bash	:
+pane	crac	3	:projects	0	:	1	:/Users/crac	0	bash	:
+pane	crac	3	:projects	0	:	2	:/Users/crac	1	bash	:
+pane	crac	3	:projects	0	:	3	:/Users/crac	0	bash	:
+pane	crac	4	:hacking	0	:	1	:/Users/crac	0	bash	:
+pane	crac	4	:hacking	0	:	2	:/Users/crac	1	bash	:
+pane	crac	4	:hacking	0	:	3	:/Users/crac	0	bash	:
+pane	crac	5	:shell	0	:-	1	:/Users/crac	1	bash	:
+pane	crac	5	:shell	0	:-	2	:/Users/crac	0	bash	:
+pane	crac	5	:shell	0	:-	3	:/Users/crac	0	bash	:
+pane	merge	1	:dev	0	:-	1	:/Users/crac	0	bash	:
+pane	merge	1	:dev	0	:-	2	:/Users/crac	0	bash	:
+pane	merge	1	:dev	0	:-	3	:/Users/crac	1	bash	:
+pane	merge	1	:dev	0	:-	4	:/Users/crac	0	bash	:
+pane	merge	2	:services	1	:*	1	:/Users/crac	0	bash	:
+pane	merge	2	:services	1	:*	2	:/Users/crac	1	bash	:
+pane	merge	2	:services	1	:*	3	:/Users/crac	0	bash	:
+pane	merge	2	:services	1	:*	4	:/Users/crac	0	bash	:
+pane	merge	3	:WP	0	:	1	:/Users/crac	0	bash	:
+pane	merge	3	:WP	0	:	2	:/Users/crac	1	bash	:
+pane	merge	3	:WP	0	:	3	:/Users/crac	0	bash	:
+pane	ovida	1	:dev	1	:*	1	:/Users/crac/scripts	0	bash	:
+pane	ovida	1	:dev	1	:*	2	:/Users/crac/scripts	1	bash	:
+pane	ovida	2	:lab	0	:	1	:/Users/crac/scripts	0	bash	:
+pane	ovida	2	:lab	0	:	2	:/Users/crac/scripts	1	bash	:
+pane	ovida	2	:lab	0	:	3	:/Users/crac/scripts	0	bash	:
+pane	ovida	3	:training	0	:	1	:/Users/crac/scripts	0	bash	:
+pane	ovida	3	:training	0	:	2	:/Users/crac/scripts	1	bash	:
+pane	ovida	3	:training	0	:	3	:/Users/crac/scripts	0	bash	:
+pane	ovida	4	:hacking	0	:	1	:/Users/crac/scripts	0	bash	:
+pane	ovida	4	:hacking	0	:	2	:/Users/crac/scripts	1	bash	:
+pane	ovida	4	:hacking	0	:	3	:/Users/crac/scripts	0	bash	:
+pane	ovida	5	:shell	0	:-	1	:/Users/crac/scripts	0	bash	:
+pane	ovida	5	:shell	0	:-	2	:/Users/crac/scripts	1	bash	:
+window	DG	1	0	:-	743b,254x69,0,0[254x44,0,0{138x44,0,0,1,115x44,139,0,2},254x24,0,45{127x24,0,45,3,126x24,128,45,4}]
+window	DG	2	1	:*	b055,254x69,0,0{118x69,0,0[118x35,0,0,5,118x33,0,36,6],135x69,119,0[135x25,119,0{88x25,119,0,7,46x25,208,0,8},135x43,119,26,9]}
+window	DG	3	0	:	9c74,254x69,0,0{142x69,0,0[142x41,0,0,10,142x27,0,42,11],111x69,143,0,12}
+window	DG	4	0	:	efed,254x69,0,0{116x69,0,0,13,137x69,117,0[137x37,117,0,14,137x31,117,38,15]}
+window	DG	5	0	:	9c10,254x69,0,0{107x69,0,0[107x34,0,0,16,107x34,0,35,17],146x69,108,0[146x34,108,0,18,146x34,108,35,19]}
+window	KL	1	1	:*	392b,254x69,0,0[254x44,0,0{165x44,0,0,20,88x44,166,0,21},254x24,0,45,22]
+window	KL	2	0	:-	fc78,254x69,0,0{142x69,0,0[142x41,0,0,23,142x27,0,42,24],111x69,143,0,25}
+window	KL	3	0	:	c0dc,254x69,0,0{142x69,0,0[142x32,0,0,26,142x36,0,33,27],111x69,143,0,28}
+window	KL	4	0	:	6b82,254x69,0,0{126x69,0,0,29,127x69,127,0,30}
+window	QD	1	1	:*	3654,254x69,0,0{113x69,0,0[113x25,0,0,31,113x23,0,26,32,113x19,0,50,33],140x69,114,0[140x20,114,0,34,140x31,114,21{88x31,114,21,35,51x31,203,21,36},140x16,114,53,37]}
+window	QD	2	0	:-	be1a,254x69,0,0{144x69,0,0[144x35,0,0,38,144x33,0,36,39],109x69,145,0[109x44,145,0{88x44,145,0,40,20x44,234,0,41},109x24,145,45,42]}
+window	QD	3	0	:	7cad,254x69,0,0[254x32,0,0{138x32,0,0[138x25,0,0,43,138x6,0,26,44],115x32,139,0,45},254x36,0,33{140x36,0,33,46,113x36,141,33,47}]
+window	QD	4	0	:	7a1b,254x69,0,0[254x28,0,0{65x28,0,0,48,64x28,66,0,49,123x28,131,0,50},254x40,0,29{65x40,0,29,51,64x40,66,29,52,123x40,131,29,53}]
+window	coderpad	1	0	:-	6b25,254x69,0,0,54
+window	coderpad	2	1	:*	b971,254x69,0,0{163x69,0,0[163x43,0,0,55,163x25,0,44,56],90x69,164,0,57}
+window	coderpad	3	0	:	6b29,254x69,0,0,58
+window	crac	1	1	:*	bd27,254x69,0,0[254x34,0,0{127x34,0,0,59,126x34,128,0,60},254x34,0,35,61]
+window	crac	2	0	:	3c7a,254x69,0,0{142x69,0,0[142x41,0,0,62,142x27,0,42,63],111x69,143,0,64}
+window	crac	3	0	:	f3bd,254x69,0,0{142x69,0,0[142x40,0,0,65,142x28,0,41,66],111x69,143,0,67}
+window	crac	4	0	:	fc7c,254x69,0,0{142x69,0,0[142x41,0,0,68,142x27,0,42,69],111x69,143,0,70}
+window	crac	5	0	:-	a8de,254x69,0,0[254x43,0,0{128x43,0,0,71,125x43,129,0,72},254x25,0,44,73]
+window	merge	1	0	:-	7936,254x69,0,0[254x45,0,0{128x45,0,0,74,125x45,129,0,75},254x23,0,46{128x23,0,46,76,125x23,129,46,77}]
+window	merge	2	1	:*	aa0e,254x69,0,0{128x69,0,0[128x35,0,0,78,128x33,0,36,79],125x69,129,0[125x35,129,0,80,125x33,129,36,81]}
+window	merge	3	0	:	b83c,254x69,0,0[254x34,0,0,82,254x34,0,35{127x34,0,35,83,126x34,128,35,84}]
+window	ovida	1	1	:*	46b2,254x69,0,0[254x62,0,0,0,254x6,0,63,85]
+window	ovida	2	0	:	9587,80x24,0,0{55x24,0,0[55x19,0,0,86,55x4,0,20,88],24x24,56,0,87}
+window	ovida	3	0	:	d595,80x24,0,0{55x24,0,0[55x19,0,0,89,55x4,0,20,91],24x24,56,0,90}
+window	ovida	4	0	:	5566,80x24,0,0{55x24,0,0[55x19,0,0,92,55x4,0,20,94],24x24,56,0,93}
+window	ovida	5	0	:-	5eac,80x24,0,0[80x21,0,0,95,80x2,0,22,96]
+state	ovida	

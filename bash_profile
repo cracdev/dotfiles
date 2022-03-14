@@ -59,3 +59,24 @@ export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
 export NVMW_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
 export NVMW_NPM_MIRROR=https://npm.taobao.org/mirrors/npm
 # End of mirror-config-china
+
+#phython 
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
+export PATH="/usr/local/opt/php@7.4/bin:$PATH"
+export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
+
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
+
+# export GEM_HOME="/usr/local/lib/ruby/gems/3.0.0"
+# export PATH="$GEM_HOME/bin:$PATH"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# Java Maven
+export MAVEN_HOME=/usr/local/Cellar/maven/3.6.3_1
+export MAVEN_HOME=/usr/local/Cellar/maven/3.6.3_1
+export PATH=$MAVEN_HOME/bin:$PATH

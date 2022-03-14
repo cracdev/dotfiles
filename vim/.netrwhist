@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Volumes/Storage/Users/crac/Desktop/training/server'
-let g:netrw_dirhist_2='/private/etc/apache2'
-let g:netrw_dirhist_3='/Users/crac'
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/crac/dotfiles'
+let g:netrw_dirhist_2='/Users/crac/Development/trainings/vim/vim-nav-playground/src'
+let g:netrw_dirhist_1='/Users/crac/Development/trainings/vim/vim-nav-playground'

@@ -52,10 +52,13 @@ set clipboard=unnamed
 set pastetoggle=<F2>
 map <leader>p :set invpaste paste?<CR>
 
+nnoremap <leader>pv :Vex<CR>
 nnoremap <F5> :NERDTreeToggle<CR>
 set autoindent " Copy indent from last line when starting new line.
 set backspace=indent,eol,start
 set cursorline " Highlight current line
+
+set guicursor= "Highlight current line
 set diffopt=filler " Add vertical spaces to keep right and left aligned
 set diffopt+=iwhite " Ignore whitespace changes (focus on code changes)
 set esckeys " Allow cursor keys in insert mode.
@@ -156,16 +159,16 @@ set ruler " Show the cursor position
 " Tab control
 " set noexpandtab " tabs ftw
 set smarttab " At start of line, <Tab> inserts shiftwidth spaces, <Bs> deletes shiftwidth spaces.
-set tabstop=2 " the visible width of tabs
-set softtabstop=2 " Tab key results in 2 spaces
-set shiftwidth=2 " The # of spaces for indenting.
+set tabstop=4 " the visible width of tabs
+set softtabstop=4 " Tab key results in 2 spaces
+set shiftwidth=4 " The # of spaces for indenting.
 set shiftround " round indent to a multiple of 'shiftwidth'
 
 set shortmess=atI " Don't show the intro message when starting vim.
 set showmode " Show the current mode.
 set showtabline=2 " Always show tab bar.
-set scrolloff=3 " Start scrolling three lines before horizontal border of window.
-set sidescrolloff=3 " Start scrolling three columns before vertical border of window.
+set scrolloff=8 " Start scrolling three lines before horizontal border of window.
+set sidescrolloff=8 " Start scrolling three columns before vertical border of window.
 
 set splitbelow " New window goes below
 set splitright " New windows goes right
@@ -221,6 +224,7 @@ nnoremap  <C-Z> :update<CR>
 vnoremap <C-Z> <C-C>:update<CR>
 inoremap <C-Z> <C-O>:update<CR>
 
+inoremap jk <esc>
 " helpers for dealing with other people's code
 nmap \t :set ts=2 sts=2 sw=2 noet<cr>
 nmap \s :set ts=2 sts=2 sw=2 et<cr>
@@ -241,10 +245,10 @@ map <leader>m <esc>:tabnext<CR>
 
 
 " Better split switching (Ctrl-j, Ctrl-k, Ctrl-h, Ctrl-l)
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-H> <C-W>h
-map <C-L> <C-W>l
+" map <C-j> <C-W>j
+" map <C-k> <C-W>k
+" map <C-H> <C-W>h
+" map <C-L> <C-W>l
 
 " Sudo write (,W)
 noremap <leader>W :w !sudo tee %<CR>
@@ -296,10 +300,10 @@ nnoremap <leader>[ <i{<CR>
 " => Functions
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-map <C-h> :call WinMove('h')<cr>
-map <C-j> :call WinMove('j')<cr>
-map <C-k> :call WinMove('k')<cr>
-map <C-l> :call WinMove('l')<cr>
+" map <C-h> :call WinMove('h')<cr>
+" map <C-j> :call WinMove('j')<cr>
+" map <C-k> :call WinMove('k')<cr>
+" map <C-l> :call WinMove('l')<cr>
 
 " Window movement shortcuts
 " move to the window in the direction shown, or create a new window
@@ -485,13 +489,17 @@ set relativenumber
       endif
       return a:action
   endfunction
-  inoremap <silent><C-j> <C-R>=OmniPopup('j')<CR>
-  inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
+
+inoremap <silent><C-j> <C-R>=OmniPopup('j')<CR>
+inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 
 
 "Open vimrc
 nnoremap <leader>v :e ~/.vimrc<CR>
 nnoremap <leader>V :tabnew ~/.vimrc<CR>
+
+nnoremap <leader><CR> :so ~/.vimrc<CR>
+
 
 "Open a new Tab
 nnoremap <leader>nt :tabnew<CR>
@@ -561,3 +569,4 @@ autocmd FileType go nmap <leader>v  <Plug>(go-run)
 let g:go_list_type = "quickfix"
 
 " let g:user_emmet_leader_key='<C-Q>'
+"endline"
