@@ -37,10 +37,6 @@ export PATH="/usr/local/opt/ncurses/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/ncurses/lib"
 export CPPFLAGS="-I/usr/local/opt/ncurses/include"
 
-#java home
-export JAVA_HOME="$HOME/Library/Java/JavaVirtualMachines/openjdk-15/Contents/Home"
-export PATH="$HOME/projects/DG/securewatch/apache-maven-3.6.3/bin:$PATH"
-
 #Fix issue with tmux session
 export EVENT_NOKQUEUE=1
 
@@ -76,7 +72,12 @@ export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
+#Java home old
+#export JAVA_HOME="$HOME/Library/Java/JavaVirtualMachines/openjdk-15/Contents/Home"
+#export PATH="$HOME/projects/DG/securewatch/apache-maven-3.6.3/bin:$PATH"
+
 # Java Maven
-export MAVEN_HOME=/usr/local/Cellar/maven/3.6.3_1
-export MAVEN_HOME=/usr/local/Cellar/maven/3.6.3_1
+export MAVEN_HOME=/usr/local/Cellar/maven/3.8.5
 export PATH=$MAVEN_HOME/bin:$PATH
+
+export APPLE_SSH_ADD_BEHAVIOR=macos

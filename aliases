@@ -152,11 +152,11 @@ alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 alias sc='match_contents'
 
 #Run node apps
-alias nup="npm install"
-alias test="npm run local:test"
-alias dist="npm run build"
-alias dev="npm run local:dash"
-alias loc="npm run local"
+# alias nup="npm install"
+# alias test="npm run local:test"
+# alias dist="npm run build"
+# alias dev="npm run local:dash"
+# alias loc="npm run local"
 #PM2
 alias pm="pm2"
 alias pms="pm2 start"
@@ -175,6 +175,8 @@ alias ccn="open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Ch
 
 alias showAppAny="sudo spctl --master-disable"
 alias hideAppAny="sudo spctl --master-enable"
+#Maven
+alias mvnsb="mvn spring-boot:run"
 
 #Lando
 #alias lnd="lando start"
@@ -211,7 +213,10 @@ alias kds="kubectl delete service"
 alias gawsc="gimme-aws-creds"
 alias gci="aws sts get-caller-identity"
 
-alias qdaws="export AWS_PROFILE=quad-d1"
+#AWS COMPLEX IAM
+alias complex-users="export AWS_PROFILE=complex-users"
+alias awsp='echo $AWS_PROFILE'
+
 
 #Other
 alias ssha="ssh-add -K ~/.ssh/silverback"
@@ -225,3 +230,8 @@ alias ktb='sudo pkill TouchBarServer'
 
 alias vlprod='vercel --prod'
 alias vl='vercel'
+
+#trash mapping to rm
+# install this https://www.npmjs.com/package/trash-cli
+
+alias rm=trash

@@ -1,0 +1,63 @@
+pane	DG	1	:MGP	1	:*	1	:/Users/crac/projects/DG/MGP/Xpress/DNXT	0	bash	:
+pane	DG	1	:MGP	1	:*	2	:/Users/crac/Development/buzzfeed/campaigns/2023/02	0	bash	:
+pane	DG	1	:MGP	1	:*	3	:/Users/crac/projects/DG/MGP/Xpress/DNXT/dnxt-ui	1	bash	:
+pane	DG	1	:MGP	1	:*	4	:/Users/crac/projects/DG/MGP/Xpress/scripts	0	bash	:
+pane	DG	2	:S&D	0	:-	1	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	0	bash	:
+pane	DG	2	:S&D	0	:-	2	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	1	bash	:
+pane	DG	2	:S&D	0	:-	3	:/Users/crac/projects/DG/search_discovery/_public	0	bash	:
+pane	DG	2	:S&D	0	:-	4	:/Users/crac/projects/DG/search_discovery/contenthub/react-chartjs-2	0	bash	:
+pane	DG	2	:S&D	0	:-	5	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	0	bash	:
+pane	DG	3	:projects	0	:	1	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	0	bash	:
+pane	DG	3	:projects	0	:	2	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	1	bash	:
+pane	DG	3	:projects	0	:	3	:/Users/crac/projects/DG/search_discovery/_public/marketo	0	bash	:
+pane	DG	4	:hacking	0	:	1	:/Users/crac/Development/18T/Quad/_public	1	bash	:
+pane	DG	4	:hacking	0	:	2	:/Users/crac	0	bash	:
+pane	DG	4	:hacking	0	:	3	:/Volumes	0	bash	:
+pane	DG	5	:shell	0	:	1	:/Users/crac/scripts	1	bash	:
+pane	DG	5	:shell	0	:	2	:/Users/crac	0	bash	:
+pane	DG	5	:shell	0	:	3	:/Users/crac/dotfiles	0	bash	:
+pane	DG	5	:shell	0	:	4	:/Users/crac/dotfiles	0	bash	:
+pane	Labs	1	:dev	0	:-	1	:/Users/crac/Development/lab	1	bash	:
+pane	Labs	1	:dev	0	:-	2	:/Users/crac/Development/trainings/vue/complete-intro-to-vue-3-workshop	0	bash	:
+pane	Labs	2	:lab	1	:*	1	:/Users/crac/Development/lab/node-test	1	bash	:
+pane	Labs	2	:lab	1	:*	2	:/Users/crac/Development/trainings/python	0	bash	:
+pane	Labs	2	:lab	1	:*	3	:/Users/crac/projects/GL/Labs	0	bash	:
+pane	Labs	3	:projects	0	:	1	:/Users/crac/scripts	0	bash	:
+pane	Labs	3	:projects	0	:	2	:/Users/crac/scripts	1	bash	:
+pane	Labs	3	:projects	0	:	3	:/Users/crac/scripts	0	bash	:
+pane	Labs	4	:hacking	0	:	1	:/Users/crac/scripts	0	bash	:
+pane	Labs	4	:hacking	0	:	2	:/Users/crac/scripts	1	bash	:
+pane	Labs	4	:hacking	0	:	3	:/Users/crac/scripts	0	bash	:
+pane	Labs	5	:shell	0	:	1	:/Users/crac/scripts	0	bash	:
+pane	Labs	5	:shell	0	:	2	:/Users/crac/scripts	1	bash	:
+pane	crac	1	:dev	1	:*	1	:/Users/crac/Development/buzzfeed	0	bash	:
+pane	crac	1	:dev	1	:*	2	:/Users/crac/Development/buzzfeed	0	bash	:
+pane	crac	1	:dev	1	:*	3	:/Users/crac/Development/lab	1	bash	:
+pane	crac	2	:lab	0	:Z	1	:/Users/crac/Development	0	bash	:
+pane	crac	2	:lab	0	:Z	2	:/Users/crac/Development/lab/skills	1	bash	:
+pane	crac	2	:lab	0	:Z	3	:/Users/crac	0	bash	:
+pane	crac	3	:projects	0	:	1	:/Users/crac/Development/Nomadaz/crac/crac-dev	1	bash	:
+pane	crac	3	:projects	0	:	2	:/Users/crac/Development/Nomadaz/crac/crac.dev	0	bash	:
+pane	crac	3	:projects	0	:	3	:/Users/crac	0	bash	:
+pane	crac	4	:hacking	0	:-	1	:/Users/crac	0	bash	:
+pane	crac	4	:hacking	0	:-	2	:/Users/crac/scripts	1	bash	:
+pane	crac	4	:hacking	0	:-	3	:/Users/crac	0	bash	:
+pane	crac	5	:shell	0	:	1	:/Users/crac/Development/Nomadaz/cracboard	0	bash	:
+pane	crac	5	:shell	0	:	2	:/Users/crac/Development/Nomadaz/cracboard	1	bash	:
+pane	crac	5	:shell	0	:	3	:/Users/crac	0	bash	:
+window	DG	1	1	:*	58d9,80x24,0,0[80x11,0,0{59x11,0,0,1,20x11,60,0,2},80x12,0,12{51x12,0,12,3,28x12,52,12,4}]
+window	DG	2	0	:-	2ce0,80x24,0,0{35x24,0,0[35x11,0,0,5,35x12,0,12,6],44x24,36,0[44x22,36,0{8x22,36,0,7,35x22,45,0,8},44x1,36,23,9]}
+window	DG	3	0	:	c7ee,80x24,0,0{59x24,0,0[59x19,0,0,10,59x4,0,20,11],20x24,60,0,12}
+window	DG	4	0	:	6b77,80x24,0,0{31x24,0,0,13,48x24,32,0[48x15,32,0,14,48x8,32,16,15]}
+window	DG	5	0	:	f614,80x24,0,0{22x24,0,0[22x12,0,0,16,22x11,0,13,17],57x24,23,0[57x12,23,0,18,57x11,23,13,19]}
+window	Labs	1	0	:-	9a3a,272x67,0,0[272x44,0,0,20,272x22,0,45,21]
+window	Labs	2	1	:*	13a0,272x32,0,0{152x32,0,0[152x23,0,0,22,152x8,0,24,23],119x32,153,0,24}
+window	Labs	3	0	:	1561,80x24,0,0{55x24,0,0[55x19,0,0,25,55x4,0,20,26],24x24,56,0,27}
+window	Labs	4	0	:	d578,80x24,0,0{55x24,0,0[55x19,0,0,28,55x4,0,20,29],24x24,56,0,30}
+window	Labs	5	0	:	de8c,80x24,0,0[80x21,0,0,31,80x2,0,22,32]
+window	crac	1	1	:*	7c98,80x24,0,0[80x12,0,0{41x12,0,0,33,38x12,42,0,34},80x11,0,13,35]
+window	crac	2	0	:Z	62d1,80x24,0,0{57x24,0,0[57x18,0,0,36,57x5,0,19,37],22x24,58,0,38}
+window	crac	3	0	:	1caf,80x24,0,0{56x24,0,0[56x18,0,0,39,56x5,0,19,40],23x24,57,0,41}
+window	crac	4	0	:-	9b7e,80x24,0,0{56x24,0,0[56x19,0,0,42,56x4,0,20,43],23x24,57,0,44}
+window	crac	5	0	:	42ec,80x24,0,0{75x24,0,0[75x12,0,0,45,75x11,0,13,46],4x24,76,0,47}
+state	Labs	DG
