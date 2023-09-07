@@ -1,0 +1,21 @@
+#!/bin/bash
+
+function deviceInstall () {
+  echo ""
+  echo "Start installing custom device packages"
+  #sudo npm install serialport --unsafe-perm --build-from-source
+  sleep 15
+  echo "Start installing gps"
+  #sudo npm install gps
+  sleep 15
+  echo "Start installing all the device packages"
+  #sudo npm install
+}
+
+#MAIN
+echo ""
+echo "Start NXSTP BOX Installing"
+echo "--------------------------"
+deviceInstall
+echo ""
+

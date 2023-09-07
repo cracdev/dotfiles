@@ -389,8 +389,8 @@ let g:ctrlp_working_path_mode = 2
 
 " Buffer navigation (,,) (,]) (,[) (,ls)
 map <Leader>, <C-^>
-" :map <Leader>] :bnext<CR>
-" :map <Leader>[ :bprev<CR>
+map <Leader>] :bnext<CR>
+map <Leader>[ :bprev<CR>
 map <Leader>ls :buffers<CR>
 
 " Close Quickfix window (,qq)

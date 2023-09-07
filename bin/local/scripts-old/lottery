@@ -1,0 +1,29 @@
+#!/bin/bash
+#
+# Simple script to generate a random number
+#
+GREEN='\033[0;32m'
+
+function roll_die() {
+
+  # capture parameter
+  declare -i DIE_SIDES=$1
+  # check for die sides
+  if [ ! $DIE_SIDES -gt 0 ]; then
+    # default to 6
+    DIE_SIDES=99
+  fi
+  
+  # echo to screen
+  echo $[ ( $RANDOM % $DIE_SIDES )  + 1 ]
+
+}
+
+#MAIN
+echo ""
+echo "LUCKY LOTTERY NUMBER"
+echo "--------------------------"
+roll_die
+echo "--------------------------"
+echo ""
+

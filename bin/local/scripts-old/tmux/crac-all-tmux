@@ -1,0 +1,38 @@
+#!/bin/sh
+
+tmux new-session -s crac -n DG
+tmux split-window -v -p 10 -t crac
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t crac
+tmux new-window -n QD
+tmux select-pane -t 1
+tmux split-window -h -p 50 -t crac
+tmux select-pane -t 1
+tmux split-window -v -p 20 -t crac
+tmux select-pane -t 3
+tmux split-window -v -p 20 -t crac
+tmux select-pane -t 3
+tmux split-window -v -p 20 -t crac
+tmux select-pane -t 3
+tmux split-window -v -p 20 -t crac
+tmux select-pane -t 3
+tmux split-window -v -p 20 -t crac
+tmux new-window -n KL
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t crac
+tmux select-pane -t 1
+tmux split-window -v -p 20 -t crac
+tmux new-window -n SM
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t crac
+tmux select-pane -t 1
+tmux split-window -v -p 20 -t crac
+tmux new-window -n hacking
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t crac
+tmux select-pane -t 1
+tmux split-window -v -p 20 -t crac
+tmux new-window -n shell
+tmux select-pane -t 1
+tmux split-window -h -p 50 -t crac
+tmux select-window -t crac:1

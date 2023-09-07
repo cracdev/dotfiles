@@ -1,0 +1,23 @@
+#!/bin/sh
+
+tmux new-session -s Labs -n dev
+tmux split-window -v -p 10 -t Labs
+tmux new-window -n dev
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t Labs
+tmux select-pane -t 1
+tmux split-window -v -p 20 -t Labs
+tmux new-window -n training
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t Labs
+tmux select-pane -t 1
+tmux split-window -v -p 20 -t Labs
+tmux new-window -n hacking
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t Labs
+tmux select-pane -t 1
+tmux split-window -v -p 20 -t Labs
+tmux new-window -n shell
+tmux select-pane -t 1
+tmux split-window -v -p 10 -t Labs
+tmux select-window -t Labs:1

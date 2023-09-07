@@ -1,0 +1,22 @@
+#!/bin/sh
+
+#!/bin/sh
+
+tmux new-session -s DG -n Dev
+tmux split-window -v -p 10 -t DG
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t DG
+tmux new-window -n Lab
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t DG
+tmux select-pane -t 1
+tmux split-window -v -p 20 -t DG
+tmux new-window -n hacking
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t DG
+tmux select-pane -t 1
+tmux split-window -v -p 20 -t DG
+tmux new-window -n shell
+tmux select-pane -t 1
+tmux split-window -h -p 50 -t DG
+tmux select-window -t DG:1

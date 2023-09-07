@@ -1,0 +1,20 @@
+#!/bin/bash
+
+function getPath () {
+ echo $PATH
+}
+
+function getHome () {
+  echo $HOME
+}
+
+#MAIN
+echo ""
+echo "ENV PATHS"
+getPath
+echo "--------"
+echo "HOME PATH"
+getHome
+echo ""
+
+exit 0

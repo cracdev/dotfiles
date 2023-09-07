@@ -1,0 +1,23 @@
+#!/bin/sh
+
+tmux new-session -s ovida -n dev
+tmux split-window -v -p 10 -t ovida
+tmux new-window -n lab
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t ovida
+tmux select-pane -t 1
+tmux split-window -v -p 20 -t ovida
+tmux new-window -n training
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t ovida
+tmux select-pane -t 1
+tmux split-window -v -p 20 -t ovida
+tmux new-window -n hacking
+tmux select-pane -t 1
+tmux split-window -h -p 30 -t ovida
+tmux select-pane -t 1
+tmux split-window -v -p 20 -t ovida
+tmux new-window -n shell
+tmux select-pane -t 1
+tmux split-window -v -p 10 -t ovida
+tmux select-window -t ovida:1

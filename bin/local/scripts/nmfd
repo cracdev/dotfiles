@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# Simple script to find node_modules
+# Free up HD space!
+#
+GREEN='\033[0;32m'
+
+function find_nm() {
+  find . -name "node_modules" -type d -prune | xargs du -chs
+}
+
+#MAIN
+echo ""
+echo "FIND OUTPUT"
+echo "--------------------------"
+find_nm
+echo "--------------------------"
+echo ""

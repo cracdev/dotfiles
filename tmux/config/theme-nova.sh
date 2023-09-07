@@ -1,8 +1,8 @@
 #### COLOUR
 
 tm_icon="🙊 "
-tm_color_active=cyan
-tm_color_inactive=brightcyan
+tm_color_active=brightcyan
+tm_color_inactive=colour249
 tm_color_feature=red
 tm_color_music=colour41
 tm_active_border_color=brightwhite

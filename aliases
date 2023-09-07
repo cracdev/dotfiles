@@ -1,12 +1,15 @@
 #tmux
 alias tm='tmux'
+alias tmls='tmux ls'
 alias tms='tmux new-session -s'
 alias tmsa='tmux attach -t'
 alias tma='tmux attach'
 alias tmr='tmux source ~/.tmux.conf'
 alias tmk='tmux kill-session -t'
-alias tmls='tmux ls'
+alias tmks='tmux kill-server'
+alias tmsc='tmux switch-client -t'
 # Easier navigation: .., ..., ~ and -
+
 alias ..="cd .."
 alias cd..="cd .."
 alias ...="cd ../.."

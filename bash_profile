@@ -6,7 +6,7 @@ done
 unset file
 
 # init z   https://github.com/rupa/z
-. ~/code/z/z.sh
+. ~/dotfiles/bin/local/z/z.sh
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
@@ -29,7 +29,8 @@ export PATH="/usr/local/git/bin/:$PATH"
 export MONGO_PATH=/usr/local/mongodb
 export PATH=$PATH:$MONGO_PATH/bin
 export PATH="/usr/bin/python:${PATH}"
-export PATH="$HOME/scripts/:$PATH"
+# Add Scripts folder relocated into dotfiles
+export PATH="$HOME/dotfiles/bin/local/scripts/:$PATH"
 
 export PATH="$HOME/go/bin/:$PATH"
 export PATH="/usr/local/opt/ncurses/bin:$PATH"

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+function connect () {
+ #ssh meutuepf@108.178.7.186 -p 27880
+ ssh -i ~/.ssh/id_rsa_whf meutuepf@108.178.7.186 -p 27880
+}
+
+
+#MAIN
+echo ""
+echo "Conecting to WHF servers"
+echo "--------"
+connect
+echo ""
+
+exit 0

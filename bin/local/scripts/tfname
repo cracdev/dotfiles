@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+# Simple script to generate a random transformer name
+#
+GREEN='\033[0;32m'
+
+function get_transformers() {
+  # echo to screen
+  curl -s https://transformers-api-jkvdudyxot.now.sh/random | jq -r '.names'
+}
+
+#MAIN
+echo ""
+echo "TRANSFORMERS LIST"
+echo "--------------------------"
+get_transformers
+echo "--------------------------"
+echo ""
+

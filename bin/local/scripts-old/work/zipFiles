@@ -1,0 +1,29 @@
+#!/bin/bash
+echo "---------------"
+echo "[Complex ZipFiles v1]"
+echo "---------------"
+
+
+  echo -n "Enter the zip Name: "
+  read NAME
+  echo -n "Enter an Option [ 1 -> Images | 2 -> Videos | 3 -> Both ]: "
+  read OPT
+
+if [[ $OPT -eq 1 ]]
+then
+  echo "1 -> Images"
+  zip -r "${NAME}-images.zip" * -i '*.jpg' '*.png' '*.gif'
+  sleep 1
+elif [[ $OPT -eq 2 ]]
+then
+  echo "2 -> Videos"
+  zip -r "${NAME}-videos.zip" * -i '*.mp4'
+  sleep 1
+elif [[ $OPT -eq 3 ]]
+then
+  echo "Images && Videos"
+  zip -r "${NAME}-images.zip" * -i '*.jpg' '*.png' '*.gif'
+  sleep 1
+  zip -r "${NAME}-videos.zip" * -i '*.mp4'
+  sleep 1
+fi

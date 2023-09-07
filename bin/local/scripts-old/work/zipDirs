@@ -1,0 +1,19 @@
+#!/bin/bash
+echo "---------------"
+echo "[ZipFolders v1]"
+echo "---------------"
+
+folder_arr=('320' '980')
+#[ ! -d "$folder_arr[0]" ] && echo "can't make the zip, not folder found" && exit 1
+folder_version=`date +%s`
+mkdir "v_${folder_version}"
+
+for i in ${folder_arr[@]}
+do
+  echo "${i}.zip"
+  echo "--------------"
+
+  zip -r "v_${folder_version}/${i}.zip" "${i}/"
+  sleep 1
+  #zip -r "${i}.zip"
+done
