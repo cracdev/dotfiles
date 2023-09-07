@@ -82,3 +82,5 @@ export MAVEN_HOME=/usr/local/Cellar/maven/3.8.5
 export PATH=$MAVEN_HOME/bin:$PATH
 
 export APPLE_SSH_ADD_BEHAVIOR=macos
+# Where should I put you?
+bind "\C-f":"tmux-sessionizer\n"

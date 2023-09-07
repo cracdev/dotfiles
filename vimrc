@@ -569,4 +569,5 @@ autocmd FileType go nmap <leader>v  <Plug>(go-run)
 let g:go_list_type = "quickfix"
 
 " let g:user_emmet_leader_key='<C-Q>'
+nnoremap <silent> <C-f> :silent !tmux neww tmux-sessionizer<CR>
 "endline"
