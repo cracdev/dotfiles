@@ -242,3 +242,7 @@ alias rm=trash
 #tmux-utils
 alias cht='tmux-cht'
 alias df='tmux-sessionizer'
+
+
+
+alias python=python3
