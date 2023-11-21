@@ -7,9 +7,18 @@ function md() {
 function pmv(){
 	mkdir -p $1 && mv *-$1.* $1
 }
+
 # find shorthand
-function f() {
-    find . -name "$1"
+#function f() {
+#   find . -name "$1"
+#}
+#
+
+function fcd (){
+    local dir
+    dir=$(find ${1:-.} -type d -not -path '*/\.*' 2> /dev/null | fzf +m) && cd "$dir"
+    #find . -type f | fzf --preview 'bat --color=always {}' 
+    #dir=$(find * -maxdepth 4 -type d 2> /dev/null | fzf +m) && cd "$dir"
 }
 
 #Backup a file with the current date 

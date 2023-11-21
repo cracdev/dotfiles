@@ -1,0 +1,58 @@
+pane	DG	1	:MGP	1	:*	1	:/Users/crac/projects/DG/MGP/Xpress/DNXT	1	bash	:
+pane	DG	1	:MGP	1	:*	2	:/Users/crac/projects/DG/MGP/Xpress/DNXT/dnxt-ui	0	bash	:
+pane	DG	1	:MGP	1	:*	3	:/Users/crac/projects/DG/MGP/Xpress/scripts	0	bash	:
+pane	DG	2	:S&D	0	:-	1	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	0	bash	:
+pane	DG	2	:S&D	0	:-	2	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	1	bash	:
+pane	DG	3	:projects	0	:	1	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	0	bash	:
+pane	DG	3	:projects	0	:	2	:/Users/crac/projects/DG/search_discovery/contenthub/search_discovery_app_v2	1	bash	:
+pane	DG	4	:hacking	0	:	1	:/Users/crac	0	bash	:
+pane	DG	4	:hacking	0	:	2	:/Volumes	1	bash	:
+pane	DG	5	:shell	0	:	1	:/Users/crac/Development	1	bash	:
+pane	DG	5	:shell	0	:	2	:/Users/crac	0	bash	:
+pane	DG	5	:shell	0	:	3	:/Users/crac/dotfiles	0	bash	:
+pane	DG	5	:shell	0	:	4	:/Users/crac/dotfiles	0	bash	:
+pane	Labs	1	:dev	0	:	1	:/Users/crac/Development/Nomadaz	0	bash	:
+pane	Labs	1	:dev	0	:	2	:/Users/crac/Development/Nomadaz/vite/vue-app	1	bash	:
+pane	Labs	1	:dev	0	:	3	:/Users/crac/Development/Nomadaz/vite/vue-app	0	bash	:
+pane	Labs	2	:lab	0	:-Z	1	:/Users/crac/Development/lab/node-test	1	bash	:
+pane	Labs	2	:lab	0	:-Z	2	:/Users/crac/Development/trainings/python	0	bash	:
+pane	Labs	2	:lab	0	:-Z	3	:/Users/crac/projects/GL/Labs	0	bash	:
+pane	Labs	3	:projects	1	:*Z	1	:/Users/crac/Development/Nomadaz/vite/vue-lab	1	bash	:
+pane	Labs	3	:projects	1	:*Z	2	:/Users/crac/Development/Nomadaz/vite/vue-lab	0	bash	:
+pane	Labs	3	:projects	1	:*Z	3	:/Users/crac/Development/Nomadaz/vite/vue-vuex	0	bash	:
+pane	Labs	3	:projects	1	:*Z	4	:/Users/crac/Development/Nomadaz/vite/vue-enterprise-boilerplate	0	bash	:
+pane	Labs	4	:hacking	0	:	1	:/Users/crac/Development	0	bash	:
+pane	Labs	4	:hacking	0	:	2	:/Users/crac/Development	1	bash	:
+pane	Labs	4	:hacking	0	:	3	:/Users/crac/Development	0	bash	:
+pane	Labs	5	:shell	0	:	1	:/Users/crac/Development	0	bash	:
+pane	Labs	5	:shell	0	:	2	:/Users/crac/Development	1	bash	:
+pane	crac	1	:dev	1	:*	1	:/Users/crac/Development/Nomadaz/crac/crac.dev	0	bash	:
+pane	crac	1	:dev	1	:*	2	:/Users/crac/Development/Nomadaz	0	bash	:
+pane	crac	1	:dev	1	:*	3	:/Users/crac/Development/Nomadaz/crac/crac-site-next/crac.dev	1	bash	:
+pane	crac	2	:lab	0	:Z	1	:/Users/crac/Development	0	bash	:
+pane	crac	2	:lab	0	:Z	2	:/Users/crac/Development/lab/skills	1	bash	:
+pane	crac	2	:lab	0	:Z	3	:/Users/crac	0	bash	:
+pane	crac	3	:projects	0	:	1	:/Users/crac/Development/Nomadaz/crac/crac-dev	1	bash	:
+pane	crac	3	:projects	0	:	2	:/Users/crac/Development/Nomadaz/crac/crac.dev	0	bash	:
+pane	crac	3	:projects	0	:	3	:/Users/crac	0	bash	:
+pane	crac	4	:hacking	0	:	1	:/Users/crac	0	bash	:
+pane	crac	4	:hacking	0	:	2	:/Users/crac/Development	1	bash	:
+pane	crac	4	:hacking	0	:	3	:/Users/crac	0	bash	:
+pane	crac	5	:shell	0	:-Z	1	:/Users/crac/Development/Nomadaz/cracboard	0	bash	:
+pane	crac	5	:shell	0	:-Z	2	:/Users/crac/dotfiles	1	bash	:
+window	DG	1	1	:*	efc8,80x24,0,0[80x11,0,0,1,80x12,0,12{55x12,0,12,2,24x12,56,12,3}]
+window	DG	2	0	:-	92a7,80x24,0,0[80x11,0,0,4,80x12,0,12,5]
+window	DG	3	0	:	4bd2,80x24,0,0[80x19,0,0,6,80x4,0,20,7]
+window	DG	4	0	:	7fe3,80x24,0,0[80x15,0,0,8,80x8,0,16,9]
+window	DG	5	0	:	cb5b,80x24,0,0{21x24,0,0[21x12,0,0,10,21x11,0,13,11],58x24,22,0[58x12,22,0,12,58x11,22,13,13]}
+window	Labs	1	0	:	2005,159x74,0,0[159x39,0,0,14,159x34,0,40{79x34,0,40,15,79x34,80,40,42}]
+window	Labs	2	0	:-Z	10ad,159x74,0,0{95x74,0,0[95x40,0,0,16,95x33,0,41,17],63x74,96,0,18}
+window	Labs	3	1	:*Z	18d7,176x86,0,0{103x86,0,0[103x45,0,0{51x45,0,0,19,51x45,52,0,43},103x40,0,46,20],72x86,104,0,21}
+window	Labs	4	0	:	0f14,80x24,0,0{54x24,0,0[54x19,0,0,22,54x4,0,20,23],25x24,55,0,24}
+window	Labs	5	0	:	9e9c,80x24,0,0[80x21,0,0,25,80x2,0,22,26]
+window	crac	1	1	:*	7ff2,105x47,0,0[105x15,0,0{63x15,0,0,27,41x15,64,0,28},105x31,0,16,29]
+window	crac	2	0	:Z	dc67,80x24,0,0{56x24,0,0[56x18,0,0,30,56x5,0,19,31],23x24,57,0,32}
+window	crac	3	0	:	d653,80x24,0,0{55x24,0,0[55x18,0,0,33,55x5,0,19,34],24x24,56,0,35}
+window	crac	4	0	:	556f,80x24,0,0{55x24,0,0[55x19,0,0,36,55x4,0,20,37],24x24,56,0,38}
+window	crac	5	0	:-Z	c207,105x47,0,0[105x24,0,0,39,105x22,0,25,40]
+state	Labs	crac

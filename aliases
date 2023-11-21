@@ -243,6 +243,7 @@ alias rm=trash
 alias cht='tmux-cht'
 alias df='tmux-sessionizer'
 
-
+#FZF call 
+alias f='fcd'
 
 alias python=python3
