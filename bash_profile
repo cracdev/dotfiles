@@ -90,4 +90,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # Where should I put you?
 bind "\C-f":"tmux-sessionizer\n"
 
+#comment for intel mac
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"

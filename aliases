@@ -39,7 +39,7 @@ alias lsd='ls -l | grep "^d"'
 alias rndg='open "rndebugger://set-debugger-loc?host=localhost&port=8081"'
 alias rnsprod='REACT_DEBUGGER="open -g 'rndebugger://set-debugger-loc?port=8001'" yarn ios:prod'
 alias rndprod='REACT_DEBUGGER="open -g 'rndebugger://set-debugger-loc?port=8001'" yarn ios:device:prod'
-alias op='open .'
+alias opn='open .'
 
 alias sb='subl'
 # also/or do this:
