@@ -94,3 +94,13 @@ bind "\C-f":"tmux-sessionizer\n"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+
+export NODE_BINARY="/usr/local/bin/node"
+
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+#export NVM_DIR="~/.nvm"
+#export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm

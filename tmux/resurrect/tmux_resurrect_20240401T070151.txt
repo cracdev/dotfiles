@@ -1,0 +1,58 @@
+pane	Labs	1	:dev	0	:	1	:/Users/crac/Development/Nomadaz	0	bash	:
+pane	Labs	1	:dev	0	:	2	:/Users/crac/Development/Nomadaz/vite/vue-app	1	bash	:
+pane	Labs	1	:dev	0	:	3	:/Users/crac/Development/Nomadaz/vite/vue-app	0	bash	:
+pane	Labs	2	:lab	0	:Z	1	:/Users/crac	1	bash	:
+pane	Labs	2	:lab	0	:Z	2	:/Users/crac/Development/trainings/python	0	bash	:
+pane	Labs	2	:lab	0	:Z	3	:/Users/crac/projects/GL/labs	0	bash	:
+pane	Labs	3	:projects	0	:Z	1	:/Users/crac/Development/Nomadaz/vite/vue-lab	1	bash	:
+pane	Labs	3	:projects	0	:Z	2	:/Users/crac/Development/Nomadaz/vite/vue-lab	0	bash	:
+pane	Labs	3	:projects	0	:Z	3	:/Users/crac/Development/Nomadaz/vite/vue-vuex	0	bash	:
+pane	Labs	3	:projects	0	:Z	4	:/Users/crac/Development/Nomadaz/vite/vue-enterprise-boilerplate	0	bash	:
+pane	Labs	4	:hacking	0	:-	1	:/Users/crac/Development	1	bash	:
+pane	Labs	4	:hacking	0	:-	2	:/Users/crac/Development	0	bash	:
+pane	Labs	4	:hacking	0	:-	3	:/Users/crac/Development	0	bash	:
+pane	Labs	5	:shell	1	:*Z	1	:/Users/crac/Development	0	bash	:
+pane	Labs	5	:shell	1	:*Z	2	:/Users/crac/dotfiles	1	bash	:
+pane	crac	1	:dev	1	:*	1	:/Users/crac/Development/Nomadaz/crac/crac.dev	0	bash	:
+pane	crac	1	:dev	1	:*	2	:/Users/crac/Development/Nomadaz	0	bash	:
+pane	crac	1	:dev	1	:*	3	:/Users/crac/Development/Nomadaz/crac/crac-site-next/crac.dev	1	bash	:
+pane	crac	2	:lab	0	:Z	1	:/Users/crac/Development	0	bash	:
+pane	crac	2	:lab	0	:Z	2	:/Users/crac	1	bash	:
+pane	crac	2	:lab	0	:Z	3	:/Users/crac	0	bash	:
+pane	crac	3	:projects	0	:	1	:/Users/crac/Development/Nomadaz/crac/crac-dev	1	bash	:
+pane	crac	3	:projects	0	:	2	:/Users/crac/Development/Nomadaz/crac/crac.dev	0	bash	:
+pane	crac	3	:projects	0	:	3	:/Users/crac	0	bash	:
+pane	crac	4	:hacking	0	:	1	:/Users/crac	0	bash	:
+pane	crac	4	:hacking	0	:	2	:/Users/crac/Development	1	bash	:
+pane	crac	4	:hacking	0	:	3	:/Users/crac	0	bash	:
+pane	crac	5	:shell	0	:-Z	1	:/Users/crac/Development/Nomadaz/cracboard	0	bash	:
+pane	crac	5	:shell	0	:-Z	2	:/Users/crac/dotfiles	1	bash	:
+pane	tacticam	1	:project-1	0	:	1	:/Users/crac	1	bash	:
+pane	tacticam	1	:project-1	0	:	2	:/Users/crac	0	bash	:
+pane	tacticam	1	:project-1	0	:	3	:/Users/crac	0	bash	:
+pane	tacticam	2	:project-2	0	:-	1	:/Users/crac	0	bash	:
+pane	tacticam	2	:project-2	0	:-	2	:/Users/crac	1	bash	:
+pane	tacticam	3	:projects	0	:	1	:/Users/crac	0	bash	:
+pane	tacticam	3	:projects	0	:	2	:/Users/crac	1	bash	:
+pane	tacticam	4	:hacking	0	:	1	:/Users/crac	0	bash	:
+pane	tacticam	4	:hacking	0	:	2	:/Volumes	1	bash	:
+pane	tacticam	5	:shell	1	:*Z	1	:/Users/crac/Development	0	bash	:
+pane	tacticam	5	:shell	1	:*Z	2	:/Users/crac	0	bash	:
+pane	tacticam	5	:shell	1	:*Z	3	:/Users/crac/dotfiles	0	bash	:
+pane	tacticam	5	:shell	1	:*Z	4	:/Users/crac/dotfiles	1	bash	:
+window	Labs	1	0	:	fd8c,187x52,0,0[187x32,0,0,14,187x19,0,33{93x19,0,33,15,93x19,94,33,16}]
+window	Labs	2	0	:Z	d6f7,187x52,0,0{109x52,0,0[109x29,0,0,17,109x22,0,30,18],77x52,110,0,19}
+window	Labs	3	0	:Z	7919,187x52,0,0{109x52,0,0[109x28,0,0{57x28,0,0,20,51x28,58,0,21},109x23,0,29,22],77x52,110,0,23}
+window	Labs	4	0	:-	286b,187x52,0,0{108x52,0,0[108x33,0,0,24,108x18,0,34,25],78x52,109,0,26}
+window	Labs	5	1	:*Z	f0a7,187x52,0,0[187x35,0,0,27,187x16,0,36,28]
+window	crac	1	1	:*	d770,187x52,0,0[187x18,0,0{104x18,0,0,29,82x18,105,0,30},187x33,0,19,31]
+window	crac	2	0	:Z	ba7f,187x52,0,0{110x52,0,0[110x32,0,0,32,110x19,0,33,33],76x52,111,0,34}
+window	crac	3	0	:	fd35,187x52,0,0{109x52,0,0[109x32,0,0,35,109x19,0,33,36],77x52,110,0,37}
+window	crac	4	0	:	4eb7,187x52,0,0{109x52,0,0[109x33,0,0,38,109x18,0,34,39],77x52,110,0,40}
+window	crac	5	0	:-Z	8ae0,187x52,0,0[187x27,0,0,41,187x24,0,28,42]
+window	tacticam	1	0	:	a61b,187x52,0,0[187x25,0,0,1,187x26,0,26{109x26,0,26,2,77x26,110,26,3}]
+window	tacticam	2	0	:-	4b79,187x52,0,0[187x25,0,0,4,187x26,0,26,5]
+window	tacticam	3	0	:	10fe,187x52,0,0[187x33,0,0,6,187x18,0,34,7]
+window	tacticam	4	0	:	b782,187x52,0,0[187x29,0,0,8,187x22,0,30,9]
+window	tacticam	5	1	:*Z	84e6,187x52,0,0{75x52,0,0[75x26,0,0,10,75x25,0,27,11],111x52,76,0[111x26,76,0,12,111x25,76,27,13]}
+state	tacticam	crac

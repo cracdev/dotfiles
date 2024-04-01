@@ -186,12 +186,16 @@ alias mvnsb="mvn spring-boot:run"
 alias lnds="lando stop"
 alias lnd="lando poweroff; lando start"
 #npm basic
-alias nst="npm start"
+alias nsd="npm run dev"
+alias ntst="npm run test"
+#yarn basic
 alias yst="yarn start"
 alias sdt="yarn start:test"
 alias yri="yarn install"
+
 #aws
 alias awsgci="aws sts get-caller-identity"
+
 #kubernetes
 alias k="kubectl"
 
@@ -247,3 +251,5 @@ alias df='tmux-sessionizer'
 alias f='fcd'
 
 alias python=python3
+alias pip=pip3
+alias pyvenv='source .venv/bin/activate'
