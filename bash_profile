@@ -35,8 +35,8 @@ export PATH="$HOME/dotfiles/bin/local/scripts/:$PATH"
 export PATH="$HOME/go/bin/:$PATH"
 export PATH="/usr/local/opt/ncurses/bin:$PATH"
 
-export LDFLAGS="-L/usr/local/opt/ncurses/lib"
-export CPPFLAGS="-I/usr/local/opt/ncurses/include"
+#export LDFLAGS="-L/usr/local/opt/ncurses/lib"
+#export CPPFLAGS="-I/usr/local/opt/ncurses/include"
 
 #Fix issue with tmux session
 export EVENT_NOKQUEUE=1
@@ -104,3 +104,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 #export NVM_DIR="~/.nvm"
 #export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+#export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
+eval "$(rbenv init - bash)"

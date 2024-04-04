@@ -226,9 +226,10 @@ alias awsp='echo $AWS_PROFILE'
 
 
 #Other
-alias ssha="ssh-add -K ~/.ssh/silverback"
-alias sshb="ssh-add -K ~/.ssh/kl"
-alias sshc="ssh-add -K ~/.ssh/silverback_glb"
+alias ssha="ssh-add --apple-use-keychain ~/.ssh/silverback"
+alias sshb="ssh-add --apple-use-keychain ~/.ssh/tactacam"
+
+#alias sshc="ssh-add --apple-use-keychain ~/.ssh/silverback_glb"
 
 alias iod='xcrun instruments -s devices'
 
