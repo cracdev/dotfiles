@@ -36,12 +36,16 @@ alias lsd='ls -l | grep "^d"'
 # programs
 #alias slt='open -a "Sublime Text 2"'
 
+#react-native
 alias rndg='open "rndebugger://set-debugger-loc?host=localhost&port=8081"'
-alias rnsprod='REACT_DEBUGGER="open -g 'rndebugger://set-debugger-loc?port=8001'" yarn ios:prod'
-alias rndprod='REACT_DEBUGGER="open -g 'rndebugger://set-debugger-loc?port=8001'" yarn ios:device:prod'
+alias rnsprod='REACT_DEBUGGER="open -g 'rndebugger://set-debugger-loc?port=8001'" yarn ios'
+#alias rndprod='REACT_DEBUGGER="open -g 'rndebugger://set-debugger-loc?port=8001'" yarn ios:device:prod'
+alias iod='xcrun instruments -s devices'
+
 alias opn='open .'
 
-alias sb='subl'
+
+#alias sb='subl'
 # also/or do this:
 # ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
 
@@ -50,7 +54,7 @@ alias sb='subl'
 alias please=sudo
 alias hosts='code /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
 alias hts='cd /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
-
+alias shr='source ~/.bash_profile'
 # handy things
 alias bunyip='node ~/code/bunyip/cli.js'
 alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
@@ -97,7 +101,7 @@ alias ltag='git tag --sort=committerdate | tail -1'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias localip="ipconfig getifaddr en1"
+alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 
 # Enhanced WHOIS lookups
@@ -188,10 +192,11 @@ alias lnd="lando poweroff; lando start"
 #npm basic
 alias nsd="npm run dev"
 alias ntst="npm run test"
+
 #yarn basic
 alias yst="yarn start"
-alias sdt="yarn start:test"
-alias yri="yarn install"
+alias yte="yarn test"
+alias yin="yarn install"
 
 #aws
 alias awsgci="aws sts get-caller-identity"
@@ -231,7 +236,6 @@ alias sshb="ssh-add --apple-use-keychain ~/.ssh/tactacam"
 
 #alias sshc="ssh-add --apple-use-keychain ~/.ssh/silverback_glb"
 
-alias iod='xcrun instruments -s devices'
 
 
 alias ktb='sudo pkill TouchBarServer'
