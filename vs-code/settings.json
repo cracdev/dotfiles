@@ -1,0 +1,130 @@
+{
+  // miscellaneous
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  // window
+  "window.title": "⚡ – ${activeEditorShort} / ${rootName} – ⚡",
+  "window.clickThroughInactive": false,
+  // workbench
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#FFF",
+    "titleBar.inactiveForeground": "#FFFFFFCC",
+    "titleBar.activeBackground": "#03c897",
+    "titleBar.inactiveBackground": "#03c897CC"
+  },
+  // editor
+  //   "editor.fontSize": 16,
+  //   "editor.fontFamily": "'Monaspace Krypton', 'Dank Mono', Consolas, monospace",
+  //   "editor.lineHeight": 1.5,
+  //   "editor.letterSpacing": 0.5,
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "breadcrumbs.enabled": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.formatOnPaste": true,
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // markdown preview
+  "markdown.preview.fontSize": 16,
+  "markdown.preview.fontFamily": "'Monaspace Krypton', 'Dank Mono', Consolas, monospace",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,string.quoted.single.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,string.quoted.single.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,string.quoted.single.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,string.quoted.single.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,string.quoted.single.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,string.quoted.single.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      },
+      {
+        "name": "envKeys",
+        "scope": "string.quoted.double.env,string.quoted.single.env,source.env,constant.numeric.env",
+        "settings": {
+          "foreground": "#19354900"
+        }
+      },
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      }
+    ]
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontWeight": "normal",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+

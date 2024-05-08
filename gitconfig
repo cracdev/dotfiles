@@ -103,8 +103,8 @@
 [merge]
     log = true
 [user]
-	name = crac
-	email = cracdev@gmail.com
+	name = cracdev
+	email = andres.ca@gmail.com
 [mergetool]
 	keepBackup = false
 [difftool "sourcetree"]
