@@ -4,4 +4,8 @@
 vim/undo/
 vim/bundle/
 *.log
+.netrc
+.ruby-version
+.yarn/
+.yarnrc.yml
 exports
