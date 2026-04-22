@@ -1,0 +1,32 @@
+#!/bin/bash
+echo "---------------"
+echo "[Zip Tmux Plugins v1]"
+echo "---------------"
+
+PLUGIN_DIR="$HOME/.tmux/plugins"
+
+if [ ! -d "$PLUGIN_DIR" ]; then
+  echo "Error: $PLUGIN_DIR not found"
+  exit 1
+fi
+
+cd "$PLUGIN_DIR" || exit 1
+
+for dir in */; do
+  name="${dir%/}"
+  echo "Processing: $name"
+
+  # Remove .git directory
+  if [ -d "$name/.git" ]; then
+    rm -rf "$name/.git"
+    echo "  Removed .git from $name"
+  fi
+
+  # Zip the plugin
+  zip -rq "$name.zip" "$name"
+  echo "  Created $name.zip"
+done
+
+echo "---------------"
+echo "Done! Zips saved in $PLUGIN_DIR"
+ls -lh "$PLUGIN_DIR"/*.zip

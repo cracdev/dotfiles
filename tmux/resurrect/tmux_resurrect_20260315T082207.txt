@@ -1,0 +1,38 @@
+pane	2026-03-12-andres	1	:dev	1	:*	1	:/Users/crac/development/clients/crss/active/gartrell-group/clients/pgn/iqgeo/platform/WebApps/myworldapp-local/andres	1	node	:claude 
+pane	2026-03-12-andres	2	:shell	0	:-	1	:/Users/crac/development/clients/crss/active/gartrell-group/clients/pgn/iqgeo/platform/WebApps/myworldapp-local/andres/dotfiles/bin/local/scripts	1	bash	:
+pane	2026-03-12-claude-tmux	1	:dev	1	:*	1	:/Users/crac/dotfiles/claude-tmux	1	node	:claude 
+pane	2026-03-12-claude-tmux	2	:shell	0	:-	1	:/Users/crac/dotfiles	1	bash	:
+pane	2026-03-12-launch_configurations	1	:dev	1	:*	1	:/Users/crac/.warp/launch_configurations	1	bash	:
+pane	2026-03-12-launch_configurations	2	:shell	0	:-	1	:/Users/crac/dotfiles	1	bash	:
+pane	cmplx	1	:develop	1	:*	1	:/Users/crac/development/clients/complex/psb/comunication	1	bash	:
+pane	cmplx	1	:develop	1	:*	2	:/Users/crac/development/clients/complex/internal	0	bash	:
+pane	cmplx	2	:campaings	0	:-	1	:/Users/crac/development/clients/complex/internal	0	bash	:
+pane	cmplx	2	:campaings	0	:-	2	:/Users/crac/development/clients/complex/campaigns/2026/03/heineken-03-2026	1	bash	:
+pane	cmplx	2	:campaings	0	:-	3	:/Users/crac/development/clients/complex/internal	0	bash	:
+pane	cmplx	3	:internal	0	:	1	:/Users/crac/development/clients/complex/internal/complexcon/complexcon	1	bash	:
+pane	cmplx	3	:internal	0	:	2	:/Users/crac/development/clients/complex/internal	0	bash	:
+pane	cmplx	3	:internal	0	:	3	:/Users/crac/development/clients/complex/internal	0	bash	:
+pane	cmplx	4	:sanity	0	:	1	:/Users/crac/development/clients/complex/internal	1	bash	:
+pane	cmplx	5	:shell	0	:	1	:/Users/crac/development/clients/complex/internal	0	bash	:
+pane	cmplx	5	:shell	0	:	2	:/Users/crac/development/clients/complex/internal	1	bash	:
+pane	pgn	1	:iqgeo	1	:*	1	:/Users/crac/development/clients/crss/active/gartrell-group/clients/pgn/iqgeo/platform/WebApps/myworldapp	0	bash	:
+pane	pgn	1	:iqgeo	1	:*	2	:/Users/crac/development/clients/crss/active/gartrell-group/clients/pgn/iqgeo/platform/WebApps/myworldapp	1	bash	:
+pane	pgn	2	:dev	0	:-	1	:/Users/crac/development/clients/crss/active/gartrell-group/clients/pgn/iqgeo/platform/WebApps/myworldapp-local	1	bash	:
+pane	pgn	2	:dev	0	:-	2	:/Users/crac/development/clients/crss/active/gartrell-group/clients/pgn/iqgeo/platform/WebApps/myworldapp-local/andres/dotfiles	0	bash	:
+pane	pgn	3	:shell	0	:	1	:/Users/crac/development/clients/crss/active/gartrell-group/clients/pgn/iqgeo/platform/WebApps	0	bash	:
+pane	pgn	3	:shell	0	:	2	:/Users/crac/development/clients/crss/active/gartrell-group/clients/pgn/iqgeo/platform/WebApps	1	bash	:
+window	2026-03-12-andres	1	1	:*	5759,155x40,0,0,77
+window	2026-03-12-andres	2	0	:-	575a,155x40,0,0,78
+window	2026-03-12-claude-tmux	1	1	:*	61e1,215x55,0,0,31
+window	2026-03-12-claude-tmux	2	0	:-	61e2,215x55,0,0,32
+window	2026-03-12-launch_configurations	1	1	:*	5cfb,319x33,0,0,79
+window	2026-03-12-launch_configurations	2	0	:-	e1e2,215x55,0,0,80
+window	cmplx	1	1	:*	4909,215x55,0,0[215x42,0,0,0,215x12,0,43,1]
+window	cmplx	2	0	:-	a352,319x72,0,0{183x72,0,0[183x45,0,0,2,183x26,0,46,4],135x72,184,0,3}
+window	cmplx	3	0	:	3b69,215x55,0,0{123x55,0,0[123x35,0,0,5,123x19,0,36,7],91x55,124,0,6}
+window	cmplx	4	0	:	c365,215x55,0,0,8
+window	cmplx	5	0	:	5e88,80x24,0,0[80x21,0,0,11,80x2,0,22,12]
+window	pgn	1	1	:*	b03d,215x55,0,0[215x34,0,0,70,215x20,0,35,71]
+window	pgn	2	0	:-	6981,215x55,0,0[215x37,0,0,72,215x17,0,38,74]
+window	pgn	3	0	:	dea7,80x24,0,0[80x21,0,0,75,80x2,0,22,76]
+state	2026-03-12-andres	

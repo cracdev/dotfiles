@@ -1,0 +1,21 @@
+pane	crac	1	:dev	1	:*	1	:/Users/crac/development	0	bash	:
+pane	crac	1	:dev	1	:*	2	:/Users/crac/development	1	bash	:
+pane	crac	2	:lab	0	:	1	:/Users/crac/development	0	bash	:
+pane	crac	2	:lab	0	:	2	:/Users/crac/development	1	bash	:
+pane	crac	2	:lab	0	:	3	:/Users/crac/development	0	bash	:
+pane	crac	3	:training	0	:	1	:/Users/crac/development	0	bash	:
+pane	crac	3	:training	0	:	2	:/Users/crac/development	1	bash	:
+pane	crac	3	:training	0	:	3	:/Users/crac/development	0	bash	:
+pane	crac	4	:hacking	0	:	1	:/Users/crac/development	0	bash	:
+pane	crac	4	:hacking	0	:	2	:/Users/crac/development	1	bash	:
+pane	crac	4	:hacking	0	:	3	:/Users/crac/development	0	bash	:
+pane	crac	5	:shell	0	:	1	:/Users/crac/development	0	bash	:
+pane	crac	5	:shell	0	:	2	:/Users/crac/development	1	bash	:
+pane	crac	6	:x	0	:-	1	:/Users/crac/development	1	bash	:
+window	crac	1	1	:*	db09,215x55,0,0[215x36,0,0,0,215x18,0,37,1]
+window	crac	2	0	:	61a9,80x24,0,0{55x24,0,0[55x19,0,0,2,55x4,0,20,4],24x24,56,0,3}
+window	crac	3	0	:	e210,80x24,0,0{55x24,0,0[55x19,0,0,5,55x4,0,20,7],24x24,56,0,6}
+window	crac	4	0	:	7ba5,80x24,0,0{55x24,0,0[55x19,0,0,8,55x4,0,20,10],24x24,56,0,9}
+window	crac	5	0	:	5e88,80x24,0,0[80x21,0,0,11,80x2,0,22,12]
+window	crac	6	0	:-	61e2,215x55,0,0,13
+state	crac	

@@ -5,6 +5,12 @@ set -g @plugin 'tmux-plugins/tmux-sensible'
 set -g @plugin 'tmux-plugins/tmux-copycat'
 set -g @plugin 'tmux-plugins/tmux-resurrect'
 
+# Theme Kanagawa
+set -g @plugin 'Nybkox/tmux-kanagawa'
+set -g @kanagawa-theme 'dragon'
+set -g @kanagawa-plugins "git cpu-usage ram-usage"
+set -g @kanagawa-ignore-window-colors true
+
 # Other examples:
 
 # set -g @plugin 'github_username/plugin_name'

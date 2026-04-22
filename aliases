@@ -1,4 +1,4 @@
-#Ktmux
+#tmux
 alias tm='tmux'
 alias tmls='tmux ls'
 alias tms='tmux new-session -s'
@@ -8,82 +8,35 @@ alias tmr='tmux source ~/.tmux.conf'
 alias tmk='tmux kill-session -t'
 alias tmks='tmux kill-server'
 alias tmsc='tmux switch-client -t'
-# Easier navigation: .., ..., ~ and -
 
+# Easier navigation: .., ..., ~ and -
 alias ..="cd .."
 alias cd..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -="cd -"
+alias ~="cd ~"
 alias cl='clear'
 
-# alias python='/usr/local/bin/python3'
-
 # some more ls aliases
-	alias ll='ls -alF'
-	alias la='ls -A'
-	alias l='ls -CF'
-	alias la="ls -la ${colorflag}"
-        alias lh="ls -lha"
-# List all files colorized in long format
-#alias l="ls -l ${colorflag}"
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias lh="ls -lha"
 
 # List only directories
 alias lsd='ls -l | grep "^d"'
 
-# programs
-#alias slt='open -a "Sublime Text 2"'
-
-#react-native
-alias rndg='open "rndebugger://set-debugger-loc?host=localhost&port=8081"'
-alias rndev='REACT_DEBUGGER="open -g 'rndebugger://set-debugger-loc?port=8001'" yarn ios'
-#alias rndprod='REACT_DEBUGGER="open -g 'rndebugger://set-debugger-loc?port=8001'" yarn ios:device:prod'
-alias iod='xcrun instruments -s devices'
-
-alias opn='open .'
-
-
-#alias sb='subl'
-# also/or do this:
-# ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
-
+alias op='open .'
 
 # be nice
 alias please=sudo
-alias hosts='code /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
-alias hts='cd /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.com ;)
+alias hosts='code /etc/hosts'
 alias shr='source ~/.bash_profile'
-# handy things
-alias bunyip='node ~/code/bunyip/cli.js'
-alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
-alias vlc="osascript ~/code/VLCControl/VLCControl.scpt"
 
 alias pclean="rm -rf node_modules && rm -rf package-lock.json && rm -rf yarn.lock"
-# Detect which `ls` flavor is in use
-#if ls --color > /dev/null 2>&1; then # GNU `ls`
-#	colorflag="--color"
-#else # OS X `ls`
-#	colorflag="-G"
-#fi
-
-
-
-# Always use color output for `ls`
-# if [[ "$OSTYPE" =~ ^darwin ]]; then
-# 	alias ls="command ls -G"
-# else
-# 	alias ls="command ls --color"
-# 	export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.avi=01;35:*.fli=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.ogg=01;35:*.mp3=01;35:*.wav=01;35:'
-# fi
-
-# `cat` with beautiful colors. requires Pygments installed.
-# 							   sudo easy_install Pygments
-alias c='pygmentize -O style=monokai -f console256 -g'
 
 # GIT STUFF
-# Shortcuts
 alias git="hub"
 alias g="git"
 alias v="vim"
@@ -92,8 +45,6 @@ alias gpr="g plrm"
 alias gs="g s"
 alias gc="g cam"
 alias gco="g co"
-# Undo a `git push`
-alias undopush="git push -f origin HEAD^:master"
 
 # git root
 alias gr='[ ! -z `git rev-parse --show-cdup` ] && cd `git rev-parse --show-cdup || pwd`'
@@ -104,15 +55,8 @@ alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 
-# Enhanced WHOIS lookups
-alias whois="whois"
-
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache"
-
-# View HTTP traffic
-alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
-alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
 
 # Canonical hex dump; some systems have this symlinked
 type -t hd > /dev/null || alias hd="hexdump -C"
@@ -124,7 +68,7 @@ type -t md5sum > /dev/null || alias md5sum="md5"
 alias trimcopy="tr -d '\n' | pbcopy"
 
 # Recursively delete `.DS_Store` files
-alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
+alias cleanup="find . -name '.DS_Store' -type f -ls -delete"
 
 # File size
 alias fs="stat -f \"%z bytes\""
@@ -135,7 +79,6 @@ alias rot13='tr a-zA-Z n-za-mN-ZA-M'
 # Empty the Trash on all mounted volumes and the main HDD
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; rm -rfv ~/.Trash"
 
-alias trash="rm -rf"
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
@@ -143,54 +86,16 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 #Hide/Show Files
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-# PlistBuddy alias, because sometimes `defaults` just doesn’t cut it
+
+# PlistBuddy alias, because sometimes `defaults` just doesn't cut it
 alias plistbuddy="/usr/libexec/PlistBuddy"
-
-# One of @janmoesen’s ProTip™s
-for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
-	alias "$method"="lwp-request -m '$method'"
-done
-
-# Stuff I never really use but cannot delete either because of http://xkcd.com/530/
-alias stfu="osascript -e 'set volume output muted true'"
-alias pumpitup="osascript -e 'set volume 10'"
-alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
 alias sc='match_contents'
 
-#Run node apps
-# alias nup="npm install"
-# alias test="npm run local:test"
-# alias dist="npm run build"
-# alias dev="npm run local:dash"
-# alias loc="npm run local"
-#PM2
-alias pm="pm2"
-alias pms="pm2 start"
-alias pmls="pm2 ls"
-
-
-#Docker
-alias dok="docker"
-alias dk="docker-compose"
-alias dkbd="docker-compose build"
-alias dkup="docker-compose up"
-alias chrome="/Applications/Google\\ \\Chrome.app/Contents/MacOS/Google\\ \\Chrome"
-alias canary="/Applications/Google\\ Chrome\\ Canary.app/Contents/MacOS/Google\\ Chrome\\ Canary"
-
-alias ccn="open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir='/tmp/chrome_dev_test' --disable-web-security"
-
-alias showAppAny="sudo spctl --master-disable"
-alias hideAppAny="sudo spctl --master-enable"
-#Maven
-alias mvnsb="mvn spring-boot:run"
-
-#Lando
-#alias lnd="lando start"
-alias lnds="lando stop"
-alias lnd="lando poweroff; lando start"
 #npm basic
+alias nup="npm install"
 alias nsd="npm run dev"
+alias nst="npm start"
 alias ntst="npm run test"
 
 #yarn basic
@@ -203,20 +108,14 @@ alias awsgci="aws sts get-caller-identity"
 
 #kubernetes
 alias k="kubectl"
-
 alias kgp="kubectl get pods"
-
 alias kg="kubectl get"
-
 alias kct="kubectl config get-contexts"
 alias kcc="kubectl config current-context"
 alias kuc="kubectl config use-context"
-
 alias ks="kubectl describe"
-
 alias ksp="kubectl describe pods"
 alias ksn="kubectl describe nodes"
-
 alias kd="kubectl delete"
 alias kdp="kubectl delete pod"
 alias kds="kubectl delete service"
@@ -229,34 +128,43 @@ alias gci="aws sts get-caller-identity"
 alias complex-users="export AWS_PROFILE=complex-users"
 alias awsp='echo $AWS_PROFILE'
 
-
 #Other
 alias ssha="ssh-add --apple-use-keychain ~/.ssh/silverback"
 alias sshb="ssh-add --apple-use-keychain ~/.ssh/tactacam"
 
-#alias sshc="ssh-add --apple-use-keychain ~/.ssh/silverback_glb"
-
-
-
-alias ktb='sudo pkill TouchBarServer'
+alias showAppAny="sudo spctl --master-disable"
+alias hideAppAny="sudo spctl --master-enable"
 
 alias vlprod='vercel --prod'
 alias vl='vercel'
 
 #trash mapping to rm
 # install this https://www.npmjs.com/package/trash-cli
-
-alias rm=trash
+# wrapper strips flags like -rf so trash-cli doesn't choke
+rm() {
+  local args=()
+  for arg in "$@"; do
+    [[ "$arg" =~ ^- ]] || args+=("$arg")
+  done
+  command trash "${args[@]}"
+}
 
 #tmux-utils
 alias cht='tmux-cht'
 alias df='tmux-sessionizer'
 
-#FZF call 
+#FZF call
 alias f='fcd'
+
+#claude-code
+alias cc='claude'
 
 alias python=python3
 alias pip=pip3
 alias pyvenv='source .venv/bin/activate'
 
 alias cush='cursor'
+alias coda='trae'
+
+# Get a list of both modified and untracked files
+alias fls='git status -s | grep "^A\\|^ M\\|^??" | cut -c 4-'

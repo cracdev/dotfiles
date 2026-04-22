@@ -29,6 +29,8 @@ export PATH="/usr/local/git/bin/:$PATH"
 export MONGO_PATH=/usr/local/mongodb
 export PATH=$PATH:$MONGO_PATH/bin
 export PATH="/usr/bin/python:${PATH}"
+
+
 # Add Scripts folder relocated into dotfiles
 export PATH="$HOME/dotfiles/bin/local/scripts/:$PATH"
 
@@ -65,13 +67,13 @@ fi
 export PATH="/usr/local/opt/php@7.4/bin:$PATH"
 export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
 
-export PATH="/usr/local/opt/ruby/bin:$PATH"
-export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
+# export PATH="/usr/local/opt/ruby/bin:$PATH"
+# export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
 
 # export GEM_HOME="/usr/local/lib/ruby/gems/3.0.0"
 # export PATH="$GEM_HOME/bin:$PATH"
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 #Java home old
 #export JAVA_HOME="$HOME/Library/Java/JavaVirtualMachines/jdk-21/Contents/Home"
@@ -105,10 +107,36 @@ export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+
 #export NVM_DIR="~/.nvm"
 #export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 #export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
+# export PYENV_ROOT="$HOME/.pyenv"
+# [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+
+# eval "$(pyenv init -)"
+
 eval "$(rbenv init - bash)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
+alias python=python3
+
+. "$HOME/.local/bin/env"
+
+# Added by Antigravity
+export PATH="/Users/crac/.antigravity/antigravity/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
+
+# default is ~/src/tries
+eval "$(/opt/homebrew/opt/ruby/bin/try init)"
+# or pick a path
+eval "$(/opt/homebrew/opt/ruby/bin/try init ~/development/tries)"
+
+. "$HOME/.atuin/bin/env"
+
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+eval "$(atuin init bash)"
