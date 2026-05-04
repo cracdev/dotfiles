@@ -210,6 +210,40 @@ function tmux-pgn() {
   tmux-session pgn shell iqgeo develop
 }
 
+# Symlink a file or folder into the Obsidian vault
+# Usage: vault-link <source> [name-in-vault]
+function vault-link() {
+  local vault="/Users/crac/development/vaults"
+  local src="$(realpath "$1")"
+  local dest="$vault/${2:-$(basename "$1")}"
+  if [ -e "$dest" ]; then
+    echo "'$dest' already exists"
+    return 1
+  fi
+  ln -s "$src" "$dest" && echo "Linked: $dest -> $src"
+}
+
+# Link a project's daily folder into the vault under daily/<project>
+# Usage: vault-daily [daily-folder] [project-name]
+#   vault-daily              -> uses ./daily and current folder name as project
+#   vault-daily ./daily myapp -> links as daily/myapp
+function vault-daily() {
+  local vault="/Users/crac/development/vaults/daily"
+  local src="$(realpath "${1:-./daily}")"
+  local name="${2:-$(basename "$(pwd)")}"
+  if [ ! -d "$src" ]; then
+    echo "Source folder '$src' not found"
+    return 1
+  fi
+  mkdir -p "$vault"
+  local dest="$vault/$name"
+  if [ -e "$dest" ]; then
+    echo "'$dest' already exists"
+    return 1
+  fi
+  ln -s "$src" "$dest" && echo "Linked: $dest -> $src"
+}
+
 function tmux-new() {
   local name="${1:-Session}"
   tmux-session "$name" dev 

@@ -168,3 +168,5 @@ alias coda='trae'
 
 # Get a list of both modified and untracked files
 alias fls='git status -s | grep "^A\\|^ M\\|^??" | cut -c 4-'
+# Get a list of modified files only
+alias gfn='git diff --name-only HEAD~1 HEAD'
