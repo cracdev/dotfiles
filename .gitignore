@@ -9,3 +9,4 @@ vim/bundle/
 .yarn/
 .yarnrc.yml
 exports
+tmux/plugins
