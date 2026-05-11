@@ -15,7 +15,8 @@ alias cd..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
-alias ~='cd ~'
+# `~` can't be a fish function name (fish expands ~ before alias runs);
+# fish's bare `cd` already goes home, so this alias is unnecessary.
 alias cl='clear'
 
 # some more ls aliases
@@ -76,6 +77,5 @@ alias pyvenv='source .venv/bin/activate'
 
 # Get a list of both modified and untracked files
 alias fls='git status -s | grep "^A\\|^ M\\|^??" | cut -c 4-'
-
 # Get a list of modified files only
 alias gfn='git diff --name-only HEAD~1 HEAD'

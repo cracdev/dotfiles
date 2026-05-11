@@ -26,8 +26,16 @@ brew install highlight
 brew install z
 brew install markdown
 brew install diff-so-fancy
+
+#New tools
+#md previewer
+brew install glow
+#python watch 
+brew install entr 
+
+
 # kubernetes tools
-brew install minikube
+# brew install minikube
 #brew tap heroku/brew && brew install heroku
 
 # node

@@ -136,7 +136,7 @@ eval "$(/opt/homebrew/opt/ruby/bin/try init)"
 # or pick a path
 eval "$(/opt/homebrew/opt/ruby/bin/try init ~/development/tries)"
 
-. "$HOME/.atuin/bin/env"
+# . "$HOME/.atuin/bin/env"
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 eval "$(atuin init bash)"

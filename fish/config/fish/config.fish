@@ -38,6 +38,11 @@ if test $IS_TERMUX -eq 0; and set -q BREW_BIN; and test -f $BREW_BIN
     eval ($BREW_BIN shellenv)
 end
 
+# Homebrew Ruby (keg-only) — put ahead of macOS system Ruby
+if test -d /opt/homebrew/opt/ruby/bin
+    set -gx PATH /opt/homebrew/opt/ruby/bin /opt/homebrew/lib/ruby/gems/4.0.0/bin $PATH
+end
+
 # Start tmux/zellij
 if not set -q TMUX
     tmux
@@ -52,6 +57,10 @@ starship init fish | source
 zoxide init fish | source
 atuin init fish | source
 fzf --fish | source
+# try init | source
+
+# load tries — force SHELL=fish so try emits fish syntax (login shell is zsh)
+eval (env SHELL=fish try init ~/development/tries | string collect)
 
 set -x PATH $HOME/.cargo/bin $PATH
 
@@ -93,9 +102,6 @@ alias fzfnvim='nvim (fzf --preview="bat --theme=gruvbox-dark --color=always {}")
 
 # Load additional aliases from a separate file
 source ~/.config/fish/extra/aliases.fish
-
-# load tries
-eval (try init ~/development/tries | string collect)
 
 set -l foreground F3F6F9 normal
 set -l selection 263356 normal
