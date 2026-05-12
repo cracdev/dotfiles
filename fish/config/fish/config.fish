@@ -57,10 +57,6 @@ starship init fish | source
 zoxide init fish | source
 atuin init fish | source
 fzf --fish | source
-# try init | source
-
-# load tries — force SHELL=fish so try emits fish syntax (login shell is zsh)
-eval (env SHELL=fish try init ~/development/tries | string collect)
 
 set -x PATH $HOME/.cargo/bin $PATH
 
